@@ -1,0 +1,54 @@
+t
+----
+
+1. git init 
+2. git config user.email "rsi@rsi.com"
+3. git config core.editor vim
+
+commiting
+----------
+. git add filename
+. git commit -m "message"
+. git mv filename newfilename
+
+branching
+--------
+. git branch mybranch
+. git branch
+. git branch -d mybranch
+. git branch -D mybranch #deletes hard
+. git checkout mybranch/master
+
+merge
+------
+1. git merge mybranch
+
+log
+---
+1. git log
+2. git log --online
+3. git show  hexnumbers
+
+
+diff
+----
+3. git diff
+
+
+cloning from source repo and  merging to original repo
+------------------------------------------------------
+
+git clone sourcerepo
+git config user.email "ano@mail.com"
+git add newfile
+git commit -m "another user checked"
+
+>cd to sourcerepo
+git branch newbranch
+git checkout newbranch
+git pull anotherclonedrepo #it will pulled and merged
+
+git checkout master
+git merge newbranch
+git branch -d newbranch
+

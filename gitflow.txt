@@ -1,7 +1,7 @@
 Sync local copy from remote repo
 ================================
 git fetch # This updates 'remote' portion of local repo. 
-git reset --hard origin/<your-working-branch>
+git reset --hard origin/master
 # this will sync your local copy with remote content, discarding any committed
 # or uncommitted changes.
 
